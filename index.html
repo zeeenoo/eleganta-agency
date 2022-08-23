@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Eleganta Agency</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- venobox css -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+  <!-- card slider -->
+  <link rel="stylesheet" href="plugins/card-slider/css/style.css">
+
+  <!-- Main Stylesheet -->
+  <link href="theme/css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/eleg.png" type="image/x-icon">
+  <link rel="icon" href="images/eleg.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <style>
+    /**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
+
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+/*  typography */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,400,500,600,700&display=swap");
+body {
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  color: #6c6c86;
+}
+
+p {
+  font-weight: 400;
+  color: #6c6c86;
+  font-size: 15px;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand img{
+  height: 50px;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.display-1 {
+  font-size: 100px;
+}
+@media (max-width: 575px) {
+  .display-1 {
+    font-size: 50px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 60px;
+}
+@media (max-width: 575px) {
+  h1, .h1 {
+    font-size: 40px;
+  }
+}
+
+h2, .h2 {
+  font-size: 44px;
+}
+@media (max-width: 575px) {
+  h2, .h2 {
+    font-size: 30px;
+  }
+}
+
+h3, .h3 {
+  font-size: 36px;
+}
+@media (max-width: 575px) {
+  h3, .h3 {
+    font-size: 28px;
+  }
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+.icon-lg {
+  font-size: 50px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.icon-sm {
+  font-size: 30px;
+}
+
+.icon-xs {
+  font-size: 20px;
+}
+
+/* Button style */
+.btn {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding: 13px 45px;
+  border-radius: 35px;
+  font-weight: 600;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s ease;
+}
+.btn:hover, .btn:active, .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+  box-shadow: 0px 18px 18px 0px rgba(20, 28, 91, 0.19);
+}
+
+.btn-lg {
+  font-size: 20px;
+  padding: 20px 90px;
+}
+
+.btn-primary {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  color: #fff;
+  border: 0;
+}
+.btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%) !important;
+  color: #fff;
+  border: 0;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: #f7463a;
+  border-color: #f7463a;
+}
+.btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%) !important;
+  color: #fff;
+  border-color: #f7463a;
+}
+
+.btn-secondary {
+  background: #07085d;
+  color: #fff;
+  border: 0;
+}
+.btn-secondary:active, .btn-secondary:hover, .btn-secondary.focus, .btn-secondary.active {
+  background: #07085d !important;
+  color: #fff;
+  border: 0;
+}
+
+.btn-outline-light {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-outline-light:active, .btn-outline-light:hover, .btn-outline-light.focus, .btn-outline-light.active {
+  background: #fff !important;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-transparent {
+  color: #f7463a;
+  border: 0;
+  padding-left: 0;
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-transparent:active, .btn-transparent:hover, .btn-transparent.focus, .btn-transparent.active {
+  color: #f7463a;
+  border: 0;
+  padding-left: 0;
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: none;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: #f9746b;
+  color: #fff;
+}
+
+::selection {
+  background: #f9746b;
+  color: #fff;
+}
+
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a {
+  color: #f7463a;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.hover-text-underline:hover {
+  text-decoration: underline;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+a:focus,
+button:focus,
+select:focus {
+  outline: 0;
+}
+
+a:hover {
+  color: #f7463a;
+}
+
+.slick-slide {
+  outline: 0;
+}
+
+.section {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+.section-sm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section-lg {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.section-border {
+  height: 9px;
+  width: 220px;
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  border-radius: 5px;
+  margin: 40px auto 90px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-contain {
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.border-primary {
+  border-color: #d2d2e2 !important;
+}
+
+/* overlay */
+.overlay {
+  position: relative;
+}
+.overlay::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.8;
+}
+.overlay-primary {
+  position: relative;
+}
+.overlay-primary::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #f7463a;
+  opacity: 0.8;
+}
+.overlay-secondary {
+  position: relative;
+}
+.overlay-secondary::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #07085d;
+  opacity: 0.8;
+}
+.overlay-secondary-half {
+  position: relative;
+}
+.overlay-secondary-half::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #07085d 60%, transparent);
+}
+.overlay-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.outline-0 {
+  outline: 0 !important;
+}
+
+.d-unset {
+  display: unset !important;
+}
+
+.bg-primary {
+  background: #f7463a !important;
+}
+
+.bg-secondary {
+  background: #07085d !important;
+}
+
+.text-primary {
+  color: #f7463a !important;
+}
+
+.text-secondary {
+  color: #07085d !important;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-light {
+  color: #b7b8f1 !important;
+}
+
+.text-color {
+  color: #6c6c86 !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.top-100 {
+  top: 100px;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.font-primary {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.font-secondary {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+.shadow {
+  box-shadow: 0px 46px 65px 0px rgba(181, 188, 236, 0.16) !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%) !important;
+}
+
+.transition {
+  transition: 0.3s ease;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+/* form control */
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #d2d2e2;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #f7463a;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+/* /form control */
+/* page-title */
+.page-title {
+  padding: 170px 0 190px;
+}
+
+/* /page-title */
+/* list style */
+.list-styled {
+  padding-left: 0;
+}
+.list-styled li {
+  position: relative;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.list-styled li::before {
+  position: absolute;
+  content: "\e65d";
+  font-family: "themify";
+  font-size: 14px;
+  left: 0;
+  top: 0px;
+  color: #07085d;
+  transition: 0.3s ease;
+}
+
+/* social icons */
+.social-icons a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  background: #07085d;
+  color: #fff;
+  text-align: center;
+}
+
+/* /social icons */
+.navigation {
+  padding: 20px 100px;
+  transition: 0.3s ease;
+  
+}
+.navigation.nav-bg {
+  background-color: #07085d;
+  padding: 15px 100px;
+}
+@media (max-width: 991px) {
+  .navigation.nav-bg {
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 991px) {
+  .navigation {
+    padding: 1px;
+    background: #07085d;
+  }
+}
+
+.navbar .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+.navbar .nav-item.active {
+  font-weight: bold;
+}
+.navbar .dropdown-menu {
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  border: 0;
+  top: calc(100% - 2px);
+  left: -10px;
+  border-radius: 0;
+  background: #fff;
+}
+.navbar .dropdown-menu.show {
+  display: block !important;
+}
+.navbar .dropdown-item {
+  position: relative;
+  color: #000;
+  transition: 0.2s ease;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 0 !important;
+}
+.navbar .dropdown-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.banner {
+  min-height: 100vh;
+}
+
+.content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-bg-secondary {
+  transition: 0.2s ease;
+}
+.hover-bg-secondary * {
+  transition: inherit;
+}
+.hover-bg-secondary:hover {
+  background: #07085d;
+}
+.hover-bg-secondary:hover * {
+  color: #fff;
+}
+.hover-bg-secondary.active {
+  background: #07085d;
+}
+.hover-bg-secondary.active * {
+  color: #fff;
+}
+
+.hover-bg-primary {
+  transition: 0.2s ease;
+}
+.hover-bg-primary * {
+  transition: inherit;
+}
+.hover-bg-primary:hover {
+  background: #f7463a;
+}
+.hover-bg-primary:hover * {
+  color: #fff;
+}
+.hover-bg-primary.active {
+  background: #f7463a;
+}
+.hover-bg-primary.active * {
+  color: #fff;
+}
+
+.icon-box {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+}
+
+.icon-box-sm {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+}
+
+.icon-watermark {
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+  transition: inherit;
+}
+
+.card:hover .icon-watermark {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+.bg-image img {
+  height: 100%;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .bg-image img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bg-image img {
+    display: block;
+    height: auto;
+  }
+}
+
+.hover-shadow::before {
+  transition: 0.3s ease;
+  position: absolute;
+  height: 100%;
+  box-shadow: 0px 33px 49px 0px rgba(190, 193, 228, 0.31);
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  content: "";
+  opacity: 0;
+}
+.hover-shadow:hover::before {
+  opacity: 1;
+}
+
+/* pricing */
+.bottom-shape {
+  position: relative;
+  overflow: hidden;
+}
+.bottom-shape * {
+  position: relative;
+  z-index: 1;
+}
+.bottom-shape::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  transform: rotate(40deg);
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  left: 0;
+  top: 60%;
+  opacity: 0.5;
+}
+.bottom-shape::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  transform: rotate(40deg);
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  left: 20%;
+  top: 55%;
+}
+
+/* /pricing */
+/* project */
+.project-item {
+  position: relative;
+}
+.project-item:hover .project-hover {
+  visibility: visible;
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+
+.project-hover {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transform: rotateX(90deg);
+  transition: 0.3s ease;
+  transform-origin: bottom;
+}
+.project-hover i {
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+}
+.project-hover i:hover {
+  border-color: #f7463a;
+}
+
+/* /project */
+/* footer */
+footer .overlay-image {
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  top: 10%;
+}
+
+/* progressbar */
+.progress-block .progress {
+  height: 8px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  overflow: visible;
+  position: relative;
+  box-shadow: 0px 9px 24px 0px rgba(19, 5, 44, 0.21);
+}
+.progress-block .progress-bar {
+  background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
+  width: 0;
+  transition: all 3s ease-in-out;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+.progress-block .progress-bar .skill-number {
+  position: absolute;
+  top: -22px;
+  right: 0px;
+}
+
+/* /progressbar */
+/* video */
+.video-player iframe {
+  width: 100%;
+  height: 100%;
+}
+.video-player .play-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* ripple animation */
+.ripple {
+  border-radius: 50%;
+  position: absolute;
+  height: 130%;
+  width: 130%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ripple::after {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d2d2e2;
+  border-radius: 100%;
+  -webkit-animation-name: ripple;
+          animation-name: ripple;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+          animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+  z-index: -1;
+}
+.ripple::before {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d2d2e2;
+  border-radius: 100%;
+  -webkit-animation-name: ripple;
+          animation-name: ripple;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+          animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+  z-index: -1;
+}
+
+@-webkit-keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(1.5, 1.5, 1);
+  }
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(1.5, 1.5, 1);
+  }
+}
+/* /video */
+/* card slider */
+@media (max-width: 991px) {
+  .ui-card-slider .left-slide::before {
+    left: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .ui-card-slider .left-slide::before {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .ui-card-slider .right-slide::before {
+    right: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .ui-card-slider .right-slide::before {
+    display: none;
+  }
+}
+
+/* /card slider */
+/* google map */
+.map {
+  height: 750px;
+}
+
+/* /google map */
+/* team */
+.img-thumb-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  max-height: 260px;
+  max-width: 260px;
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+}
+.card-img-top {
+  border-radius: 0;
+}
+.card-header {
+  border: 0;
+}
+.card-body {
+  border: 0;
+  border-radius: 0;
+}
+.card-footer {
+  border: 0;
+}
+.about_parag p{
+  font-weight: 400;
+
+}
+.ti-email {
+  font-size: 20px;
+  padding-right: 10px;
+  transition: .3s ease-in-out;
+}
+.ti-email:hover {
+  color: #f7463a;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.ti-linkedin {
+  font-size: 20px;
+  padding-right: 10px;
+  transition: .3s ease-in-out;
+}
+.ti-linkedin:hover {
+  color: #f7463a;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=style.css.map */
+
+  </style>
+  
+
+<header class="navigation fixed-top  ">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/eleg.png" alt="Egen"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="career.html">Career</a>
+            <a class="dropdown-item" href="#faq">FAQ's</a>
+          </div>
+        </li> -->
+       
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- banner -->
+<section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
+  data-background="images/banner/banner2.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-1 text-white font-weight-bold font-primary">Eleganta Agency</h1>
+        <h3 class=" text-white font-weight-normal font-italic ">Things go better with design .</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /banner -->
+
+<!-- service -->
+<section class="section", id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2 class="section-title">Our Services</h2>
+        <p class="lead">Our goal is your satisfaction. We work hard to
+           build great websites and even harder to build 
+           great relationships. Our team focuses on 
+           providing truly excellent service and delivers 
+           the industry’s most innovative solutions through
+            stunning corporate-grade graphics.</p>
+        <div class="section-border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4 active">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <i
+                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-palette mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-palette"></i>
+            </div>
+            <h4 class="mb-4">Design</h4>
+            <p>Prototyping is an essential
+               part of any digital design process. 
+               It helps us simulate our designs, explore 
+               different user experiences, and test out
+                journeys and user flows within our projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <i
+                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-dashboard mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-dashboard"></i>
+            </div>
+            <h4 class="mb-4">Development</h4>
+            <p>As with any construction project, there are specific
+               steps and processes that need to be followed once you’ve 
+              decided to build a website or web application.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <i
+                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-announcement mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-announcement"></i>
+            </div>
+            <h4 class="mb-4">Search Engine Optimization</h4>
+            <p>used to optimize a website's technical configuration, 
+              content relevance and link popularity 
+              so its pages can become easily findable,
+               more relevant and popular towards user 
+               search queries, and as a consequence, 
+               search engines rank them better.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /service -->
+
+<!-- feature -->
+<section class="section bg-secondary position-relative" id="feature">
+  <div class="bg-image overlay-secondary">
+    <img src="images/feature.jpg" alt="bg-image">
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="images/feature.jpg" alt="feature-image" class="img-fluid">
+          </div>
+          <div class="col-lg-7 offset-lg-1">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="text-white">We know What Bait to Use</h2>
+                <div class="section-border ml-0"></div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="media">
+                  <i class="icon text-gradient-primary ti-vector mr-3"></i>
+                  <div class="media-body">
+                    <h4 class="text-white">User Experience</h4>
+                    <p class="text-light">
+                      encompasses all aspects of the end-user's 
+                      interaction with the company, its services,
+                       and its products.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="media">
+                  <i class="icon text-gradient-primary ti-layout mr-3"></i>
+                  <div class="media-body">
+                    <h4 class="text-white">Responsive Layout</h4>
+                    <p class="text-light">
+                      is a design principle that suggests that 
+                      websites and apps be designed to work 
+                      well on different screen sizes and 
+                      devices.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="media">
+                  <i class="icon text-gradient-primary ti-headphone-alt mr-3"></i>
+                  <div class="media-body">
+                    <h4 class="text-white">Digital Solutions</h4>
+                    <p class="text-light">
+                      is the process of creating a system that 
+                      can be used to solve a problem or 
+                      problem domain.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="media">
+                  <i class="icon text-gradient-primary ti-ruler-pencil mr-3"></i>
+                  <div class="media-body">
+                    <h4 class="text-white">Bootstrap & Tailwind</h4>
+                    <p class="text-light">
+                       It contains CSS-based
+                        components that can be used to build
+                         websites and web applications.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /feature -->
+
+<!-- team -->
+<!-- <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Our Team</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <div class="section-border"></div>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-3 col-sm-6">
+        <div class="card hover-shadow">
+          <img src="images/team/member-1.jpg" alt="team-member" class="card-img-top">
+          <div class="card-body text-center position-relative zindex-1">
+            <h4><a class="text-dark" href="team-single.html">Sara Adams</a></h4>
+            <i>Designer</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card hover-shadow">
+          <img src="images/team/member-2.jpg" alt="team-member" class="card-img-top">
+          <div class="card-body text-center position-relative zindex-1">
+            <h4><a class="text-dark" href="team-single.html">Tom Bills</a></h4>
+            <i>Developer</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card hover-shadow">
+          <img src="images/team/member-3.jpg" alt="team-member" class="card-img-top">
+          <div class="card-body text-center position-relative zindex-1">
+            <h4><a class="text-dark" href="team-single.html">Anna Walle</a></h4>
+            <i>Manager</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card hover-shadow">
+          <img src="images/team/member-4.jpg" alt="team-member" class="card-img-top">
+          <div class="card-body text-center">
+            <h4>Devid Json</h4>
+            <i>CEO</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- /team -->
+
+<!-- about -->
+<section class="section bg-secondary position-relative" data-background="images/backgrounds/about-b.jpg" id="about">
+  
+  <img src="images/backgrounds/about-bg-overlay.png" alt="overlay" class="overlay-image img-fluid">
+  <div class="container align-content-center justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-sm-7 col-8">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <div class="col-12">
+              <h2 class="text-white">Who We Are</h2>
+              <div class="section-border ml-0"></div>
+            </div>
+        </div>
+        <div class="about_parag">
+        <p class="w-400 text-bold mb-10  font-weight-bold text-lg-center ">
+          Eleganta agency creates strong internet marketing 
+          campaigns and effective web presences for 
+          small to medium size businesses. We specialize
+           in designing powerful branding and developing W3C 
+           standards compliant websites that are compatible
+            with the latest devices.
+
+          A group of  web designers and developers, we are dedicated 
+          to creating powerful, effective and engaging websites.
+          Our bold design style and use of ultra-clean, 
+          standards-based markup code combine to produce
+            websites that boast exceptional search engine 
+            result positions, increased conversions and superior visitor loyalty.
+        </p>
+      </div>
+        <!-- <a href="about.html" class="btn btn-primary">Read More</a> -->
+      </div>
+      <!-- <div class="col-md-2 col-sm-4 col-4 text-right align-self-end">
+        <a class="venobox" data-autoplay="true" data-vbtype="video"
+          href="https://www.youtube.com/watch?v=jrkvirglgaQ"><i
+            class="text-center icon-sm icon-box rounded-circle text-white bg-gradient-primary d-block ti-control-play"></i></a>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- project -->
+<section class="section" id="project">
+  <div class="container-fluid px-0">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Our Feature Works</h2>
+        <div class="section-border"></div>
+      </div>
+    </div>
+
+    <div class="row no-gutters shuffle-wrapper">
+      <div class="col-lg-4 col-md-6 shuffle-item">
+        <div class="project-item">
+          <img src="images/project/1.png" alt="project-image" class="img-fluid w-100">
+          <div class="project-hover bg-secondary px-4 py-3">
+            <p  class="text-white h4">Portfolio Website</p>
+            <!-- <a href="#"><i class="ti-link icon-xs text-white"></i></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 shuffle-item">
+        <div class="project-item">
+          <img src="images/project/2.png" alt="project-image" class="img-fluid w-100">
+          <div class="project-hover bg-secondary px-4 py-3">
+            <p class="text-white h4">Restaurant landing Page</p>
+            <!-- <a href="#"><i class="ti-link icon-xs text-white"></i></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 shuffle-item">
+        <div class="project-item">
+          <img src="images/project/3.png" alt="project-image" class="img-fluid w-100">
+          <div class="project-hover bg-secondary px-4 py-3">
+            <p class="text-white h4">Employment agency Landing Page
+            </p>
+            <!-- <a href="#"><i class="ti-link icon-xs text-white"></i></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 shuffle-item">
+        <div class="project-item">
+          <img src="images/project/4.png" alt="project-image" class="img-fluid w-100">
+          <div class="project-hover bg-secondary px-4 py-3">
+            <p class="text-white h4">Marketing Agency Landing Page
+            </p>
+            <!-- <a href="#"><i class="ti-link icon-xs text-white"></i></a> -->
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-4 col-md-6 shuffle-item">
+        <div class="project-item">
+          <img src="images/project/project-5.jpg" alt="project-image" class="img-fluid w-100">
+          <div class="project-hover bg-secondary px-4 py-3">
+            <a href="#" class="text-white h4">Project title</a>
+            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- /project -->
+
+<!-- call to action -->
+<section>
+  <div class="container section-sm overlay-secondary-half bg-cover" data-background="images/backgrounds/cta-bg.jpg">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-1">
+      <h2 class="text-gradient-primary">Let's Start With Us!</h2>
+      <p class="h4 font-weight-bold text-white mb-4">
+        if you have any website idea or want to start your own website,
+        
+      </p>
+      <a href="#contact" class="btn btn-lg btn-primary">Contact Us</a>
+    </div>
+  </div>
+</div>
+</section>
+<!-- /call to action -->
+
+<!-- pricing -->
+<!-- <section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Our Smart Pricing Table</h2>
+        <div class="section-border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card bottom-shape bg-secondary pt-4 pb-5">
+          <div class="card-body text-center">
+            <h4 class="text-white">Basic</h4>
+            <p class="text-light mb-4">Besic and simple website</p>
+            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
+            <ul class="list-unstyled mb-5">
+              <li class="text-white mb-3">Mobile-Optimized Website</li>
+              <li class="text-white mb-3">Powerful Website Metrics</li>
+              <li class="text-white mb-3">Free Custom Domain</li>
+              <li class="text-white mb-3">24/7 Customer Support</li>
+              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
+              <li class="text-white mb-3">Sell unlimited Product</li>
+            </ul>
+            <a href="#" class="btn btn-outline-light">Try it now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card bottom-shape bg-secondary pt-4 pb-5">
+          <div class="card-body text-center">
+            <h4 class="text-white">Basic</h4>
+            <p class="text-light mb-4">Besic and simple website</p>
+            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
+            <ul class="list-unstyled mb-5">
+              <li class="text-white mb-3">Mobile-Optimized Website</li>
+              <li class="text-white mb-3">Powerful Website Metrics</li>
+              <li class="text-white mb-3">Free Custom Domain</li>
+              <li class="text-white mb-3">24/7 Customer Support</li>
+              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
+              <li class="text-white mb-3">Sell unlimited Product</li>
+            </ul>
+            <a href="#" class="btn btn-outline-light">Try it now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="card bottom-shape bg-secondary pt-4 pb-5">
+          <div class="card-body text-center">
+            <h4 class="text-white">Basic</h4>
+            <p class="text-light mb-4">Besic and simple website</p>
+            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
+            <ul class="list-unstyled mb-5">
+              <li class="text-white mb-3">Mobile-Optimized Website</li>
+              <li class="text-white mb-3">Powerful Website Metrics</li>
+              <li class="text-white mb-3">Free Custom Domain</li>
+              <li class="text-white mb-3">24/7 Customer Support</li>
+              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
+              <li class="text-white mb-3">Sell unlimited Product</li>
+            </ul>
+            <a href="#" class="btn btn-outline-light">Try it now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- /pricing -->
+
+
+
+
+<section class="section bg-light" id="faq">
+  <div class="row">
+    <div class="col-lg-10 mx-auto text-center">
+      <h2>FAQs</h2>
+      <div class="section-border"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="accordion">
+          <!-- accordion item -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion1">
+                <span>Where should my website be hosted?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion1" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">Hosting is super important! When it comes to hosting, you get what you pay for. We’ve developed a list of our absolute favorite hosts to help you find the right host at the right price. Check out our list.</div>
+            </div>
+          </div>
+          <!-- accordion item -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion2">
+                <span>How long does it take to build a website?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion2" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">
+                <!-- Marketing Choices regarding your personal information -->
+                Our standard websites take approximately 5-15 days to create. Our E-commerce (online store) websites take approximately 20 days to create. This time will vary from project to project.
+               </div>
+            </div>
+          </div>
+          <!-- accordion item -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion3">
+                <span>Will my website be mobile-friendly?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion3" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">Absolutely! Having a mobile-friendly website is more important than ever! We work hard to ensure your website looks great on a variety of devices.</div>
+            </div>
+          </div>
+          <!-- accordion item -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion4">
+                <span>How does the payment process work?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion4" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">The project starts with a 10% deposit and 3 weekly installments of the project balance over the course of development.</div>
+            </div>
+          </div>
+          <!-- accordion item -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion5">
+                <span>Will I be able to update the site myself when it’s finished?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion5" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">Yes! We love it when our clients take control of their website and learn to manage it on their own. We’ll provide you with a set of comprehensive video tutorials to help you learn your way around, as well provide you with a training session to help get you on your way. (Note: We love to answer your questions!)</div>
+            </div>
+          </div>
+          <!--     -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion6">
+                <span>Who writes the content for the site?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion6" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">Usually that is you. You are the expert on your business, so it’s usually best if it comes from you. If you need help, we can recommend copywriters who can help clean up or write original content for you at an additional cost.</div>
+            </div>
+          </div>
+
+               <!--     -->
+               <div class="card mb-4 rounded-0 border-0">
+                <div class="card-header rounded-0 bg-white border p-0 border-0">
+                  <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion7">
+                    <span>Do I have to be local to work with you?</span> <i class="ti-plus text-right"></i>
+                  </a>
+                </div>
+                <div id="accordion7" class="collapse" data-parent="#accordion">
+                  <div class="card-body font-secondary text-color">Nope! We work with clients all over the world. Our whole team works remotely, allowing us to find the absolute best team for our business.</div>
+                </div>
+              </div>
+
+                   <!--     -->
+          <div class="card mb-4 rounded-0 border-0">
+            <div class="card-header rounded-0 bg-white border p-0 border-0">
+              <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#accordion8">
+                <span>What if I need help on my site down the road?</span> <i class="ti-plus text-right"></i>
+              </a>
+            </div>
+            <div id="accordion8" class="collapse" data-parent="#accordion">
+              <div class="card-body font-secondary text-color">We are only an email away! We’re here to help you as much or as little as you need, and we won’t disappear once the site is launched. We’ve been doing this for many years, so we aren’t going anywhere anytime soon.</div>
+            </div>
+          </div>
+
+          <!--  -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- blog -->
+<section class="section" id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Latest News</h2>
+        <div class="section-border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <article class="card">
+          <img src="images/blog/nn.png" alt="post-thumb" class="card-img-top mb-2">
+          <div class="card-body p-0">
+            <time>Feb 15, 2022</time>
+            <a href="https://99designs.com/blog/logo-branding/what-is-branding/" class="h4 card-title d-block my-3 text-dark hover-text-underline">
+              What is branding and how to harness the power of it</a>
+            <a href="https://99designs.com/blog/logo-branding/what-is-branding/" class="btn btn-transparent">Read more</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <article class="card">
+          <img src="images/blog/pp.jpg" alt="post-thumb" class="card-img-top mb-2">
+          <div class="card-body p-0">
+            <time>June 27, 2022</time>
+            <a href="https://99designs.com/blog/web-digital/how-to-do-a-website-audit/" class="h4 card-title d-block my-3 text-dark hover-text-underline">How to use a website audit to boost your brand</a>
+            <a href="https://99designs.com/blog/web-digital/how-to-do-a-website-audit/" class="btn btn-transparent">Read more</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <article class="card">
+          <img src="images/blog/mm.jpg" alt="post-thumb" class="card-img-top mb-2">
+          <div class="card-body p-0">
+            <time>Dec 08, 2019</time>
+            <a href="https://seeresponse.com/blog/top-reasons-business-needs-website/" class="h4 card-title d-block my-3 text-dark hover-text-underline">Top 10 Reasons Why Your Business Needs a Website in 2022</a>
+            <a href="https://seeresponse.com/blog/top-reasons-business-needs-website/" class="btn btn-transparent">Read more</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- footer -->
+<footer class="bg-secondary position-relative" id="contact">
+  <img src="images/backgrounds/map.png" class="img-fluid overlay-image" alt="">
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3 col-6">
+          <h4 class="text-white mb-5">Services</h4>
+          <ul class="list-unstyled">
+            <li><p class="text-light d-block mb-3">Web design</p></li>
+            <li><p" class="text-light d-block mb-3">Web development</p></li>
+            <li><p class="text-light d-block mb-3">SEO</p></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="text-white mb-5">Company</h4>
+          <ul class="list-unstyled">
+            <li><a href="#service" class="text-light d-block mb-3">Service</a></li>
+            <li><a href="#contact" class="text-light d-block mb-3">Contact</a></li>
+            <li><a href="#about" class="text-light d-block mb-3">About us</a></li>
+            <li><a href="#blog" class="text-light d-block mb-3">Blog</a></li>
+            <li><a href="#contact" class="text-light d-block mb-3">Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6" >
+          <div class="bg-white p-4">
+            <h3>Contact us</h3>
+            <form action="https://formsubmit.co/eleganta.agency@gmail.com" method="POST">
+              <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Full name">
+              <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Email address">
+              <textarea name="message" id="message" class="form-control mb-4 px-0" placeholder="Message"></textarea>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+  <div class="pb-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- <div class="col-md-6 text-center text-md-left">
+          <p class="text-light mb-0">Copyright &copy; 2019 a theme by <a class="text-gradient-primary" href="https://themefisher.com">themefisher.com</a>
+          </p>
+        </div> -->
+        <div class="col-md-6">
+          <ul class="list-inline text-md-right text-center">
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="https://www.linkedin.com/company/eleganta-ae/?viewAsMember=true"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item"><p class="d-block  text-white hover-bg-secondary user-select:all" ><i class="ti-email"></i>eleganta.agengy@gmail.com</p></li>
+
+            <!-- <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="d-block p-3 text-white" href="#"><i class="ti-github"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- venobox -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- shuffle -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<!-- apear js -->
+<script src="plugins/counto/apear.js"></script>
+<!-- counter -->
+<script src="plugins/counto/counTo.js"></script>
+<!-- card slider -->
+<script src="plugins/card-slider/js/card-slider-min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
